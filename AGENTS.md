@@ -26,6 +26,7 @@ At the end of every significant task or session, summarize the current state, ar
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
+- `Cmd.Short` must always be less than 50 runes
 
 ## Rule: Agent specific
 
