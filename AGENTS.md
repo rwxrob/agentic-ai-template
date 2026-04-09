@@ -25,6 +25,7 @@ At the end of every significant task or session, summarize the current state, ar
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
+- In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
 
 ## Rule: Agent specific
 
