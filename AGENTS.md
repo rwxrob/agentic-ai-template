@@ -25,7 +25,9 @@ At the end of every significant task or session, summarize the current state, ar
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
+- Always pass Go code through `go fmt` before committing
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
+- In `Cmd.Long`, indent sample/example content by 4 spaces so it renders as verbatim (preformatted) text, not markdown
 - `Cmd.Short` must always be less than 50 runes
 - Always add `help.Cmd` as the first bonzai subcommand
 
