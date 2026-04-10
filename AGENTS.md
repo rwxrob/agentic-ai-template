@@ -23,6 +23,7 @@ At the end of every significant task or session, summarize the current state, ar
 ## Rule: Code style
 
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
+- Always use sentence case for titles
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - Always pass Go code through `go fmt` before committing
