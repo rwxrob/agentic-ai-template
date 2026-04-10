@@ -38,6 +38,7 @@ At the end of every significant task or session, summarize the current state, ar
 
 - Always enable branch protection on `main` when creating a new GitHub repo so a PR is always required
 - Require zero reviews (PRs required but no approvals needed)
+- Enable automatic branch deletion after a PR is merged
 
 - Always use `gh copilot` not `copilot`
 
