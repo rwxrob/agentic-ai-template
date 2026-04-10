@@ -34,7 +34,9 @@ At the end of every significant task or session, summarize the current state, ar
 - `Cmd.Short` must always be less than 50 runes
 - Always add `help.Cmd` as the first bonzai subcommand
 
-## Rule: Agent specific
+## Rule: GitHub repos
+
+- Always enable branch protection on `main` when creating a new GitHub repo so a PR is always required
 
 - Always use `gh copilot` not `copilot`
 
