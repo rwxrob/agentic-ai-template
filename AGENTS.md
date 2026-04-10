@@ -27,6 +27,7 @@ At the end of every significant task or session, summarize the current state, ar
 - No extensions on executable scripts, ever
 - Always pass Go code through `go fmt` before committing
 - Put all Go packages under `internal/` unless otherwise requested, to prevent external dependencies
+- Prefer `go install` over `go build`
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
 - In `Cmd.Long`, indent sample/example content by 4 spaces so it renders as verbatim (preformatted) text, not markdown
 - `Cmd.Short` must always be less than 50 runes
