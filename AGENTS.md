@@ -29,6 +29,7 @@ At the end of every significant task or session, summarize the current state, ar
 - Run `gofmt` on all Go source files every time any change is made to Go source code
 - Put all Go packages under `internal/` unless otherwise requested, to prevent external dependencies
 - Prefer `go install` over `go build`
+- Always use an OAuth-enabled HTTP client in Go
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
 - In `Cmd.Long`, indent sample/example content by 4 spaces so it renders as verbatim (preformatted) text, not markdown
 - `Cmd.Short` must always be less than 50 runes
