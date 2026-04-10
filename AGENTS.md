@@ -26,7 +26,7 @@ At the end of every significant task or session, summarize the current state, ar
 - Always use sentence case for titles
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
-- Always pass Go code through `go fmt` before committing
+- Run `gofmt` on all Go source files every time any change is made to Go source code
 - Put all Go packages under `internal/` unless otherwise requested, to prevent external dependencies
 - Prefer `go install` over `go build`
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
