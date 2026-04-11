@@ -42,7 +42,10 @@ At the end of every significant task or session, summarize the current state, ar
 - Enable automatic branch deletion after a PR is merged
 - After merging a PR, pull the latest changes into the current branch and delete any leftover worktrees
 
+## Rule: Agent specific
+
 - Always use `gh copilot` not `copilot`
+- Use Claude Opus 4.6 (high) for all new projects
 
 ## Current architecture
 
