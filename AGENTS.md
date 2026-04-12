@@ -15,6 +15,7 @@ At the end of every significant task or session, summarize the current state, ar
 ## Rule: Environment
 
 - Use `/usr/bin/open` (full path) to open files or URLs on macOS — never plain `open`
+- Always pipe URLs or other text to be pasted into `pbcopy` when suggesting them
 
 ## Rule: Secrets
 
