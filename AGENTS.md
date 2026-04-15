@@ -25,6 +25,7 @@ At the end of every significant task or session, summarize the current state, ar
 
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - Always use sentence case for titles
+- Always use `----` for horizontal rules in markdown (not `---`) to avoid em-dash creation by pandoc and similar tools
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - Run `gofmt` on all Go source files every time any change is made to Go source code
