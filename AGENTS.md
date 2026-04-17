@@ -37,7 +37,9 @@ At the end of every significant task or session, summarize the current state, ar
 - `Cmd.Short` must always be less than 50 runes
 - Always add `help.Cmd` as the first bonzai subcommand
 
-## Rule: GitHub repos
+## Rule: Containers
+
+- Never refer to Docker specifically; always refer to OCI-compliant containers
 
 - Always enable branch protection on `main` when creating a new GitHub repo so a PR is always required
 - Require zero reviews (PRs required but no approvals needed)
