@@ -5,6 +5,7 @@ Keep this project as agent-agnostic as possible.
 ## Rule: Context Maintenance
 
 At the end of every significant task or session, summarize the current state, architectural decisions made, and pending "todo" items into AGENTS.md. Always ensure this file reflects the "ground truth" of the project so future sessions can resume without friction. Use the writeFile tool to overwrite it so the next session starts with current state.
+Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any updated rules have been merged into this file.
 
 ## Rule: Commits
 
