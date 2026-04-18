@@ -36,6 +36,7 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 - Always recover from panics in Go; no program should ever terminate due to an unhandled panic
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
 - In `Cmd.Long`, indent sample/example content by 4 spaces so it renders as verbatim (preformatted) text, not markdown
+- In `Cmd.Long`, use single-line paragraphs so text wraps correctly on windows of different dimensions
 - `Cmd.Short` must always be less than 50 runes
 - Always add `help.Cmd` as the first bonzai subcommand
 
