@@ -39,6 +39,7 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 - In `Cmd.Long`, use single-line paragraphs so text wraps correctly on windows of different dimensions
 - `Cmd.Short` must always be less than 50 runes
 - Always add `help.Cmd` as the first bonzai subcommand
+- Always default to command completion for any Bonzai command
 
 ## Rule: Containers
 
