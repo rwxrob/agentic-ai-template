@@ -46,6 +46,7 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 - Never refer to Docker specifically; always refer to OCI-compliant containers
 
 - Always enable branch protection on `main` when creating a new GitHub repo so a PR is always required
+- Exception: repos beginning with `notes-` are knowledge repos, not source code — commit directly to main with no branch protection and no PRs required
 - Require zero reviews (PRs required but no approvals needed)
 - Enable automatic branch deletion after a PR is merged
 - After merging a PR, pull the latest changes into the current branch and delete any leftover worktrees
