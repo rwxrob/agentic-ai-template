@@ -23,6 +23,11 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 
 - Never commit secrets, config files, or database files
 
+## Rule: Writing tone
+
+- Avoid hyperbolic and superlative language; state facts plainly
+- Reference current events and concrete examples whenever possible
+
 ## Rule: Code style
 
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
