@@ -18,6 +18,7 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 
 - Use `/usr/bin/open` (full path) to open files or URLs on macOS — never plain `open`
 - Always pipe URLs or other text to be pasted into `pbcopy` when suggesting them
+- Use Obsidian as the default application to open all markdown files (e.g., `/usr/bin/open -a Obsidian <file.md>`)
 
 ## Rule: Secrets
 
