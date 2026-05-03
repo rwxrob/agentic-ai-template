@@ -33,13 +33,14 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - Always use sentence case for titles
-- Always use `----` for horizontal rules in markdown (not `---`) to avoid em-dash creation by pandoc and similar tools
+- Always use `—-` for horizontal rules in markdown (not `—`) to avoid em-dash creation by pandoc and similar tools
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - Run `gofmt` on all Go source files every time any change is made to Go source code
 - Put all Go packages under `internal/` unless otherwise requested, to prevent external dependencies
 - Prefer `go install` over `go build`
 - Always use an OAuth-enabled HTTP client in Go
+- Never enable CGO when compiling Go code no matter what
 - Always recover from panics in Go; no program should ever terminate due to an unhandled panic
 - In Go `bonzai.Cmd` structs, always put `Long` last so code is easier to read
 - In `Cmd.Long`, indent sample/example content by 4 spaces so it renders as verbatim (preformatted) text, not markdown
