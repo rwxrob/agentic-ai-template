@@ -9,6 +9,7 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 
 ## Rule: Commits
 
+- Always fetch latest before beginning any new work
 - Always use conventional commits (e.g. `feat:`, `fix:`, `docs:`, `chore:`)
 - Never add anything agent related (copilot, claude, etc.) to commit messages or co-authorship
 - Committing directly to main is okay in this repo
